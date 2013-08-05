@@ -1,0 +1,32 @@
+***************************************************************************
+
+  	Name: JLeap.jar
+	Ver: 0.2 (2013/08/04)
+	Description:
+		JAVA based Leap Motion Controller designed to allow you to
+		control the mouse cursor using your fingers.
+	Created By: Sirik
+	Forum link: https://forums.leapmotion.com/showthread.php?3613-JLeap-JAVA-Control-for-Linux
+
+***************************************************************************
+
+Requirements:
+	- Leap Motion Linux SDK
+	- Java Runtime Environment
+	- leapd
+
+Pre-requisits:
+	Copy libLeap.so and libLeapJava.so from the LeapSDK/lib/x64 folder
+	to your /usr/lib folder (you will need to be root to copy).
+	You will need to ensure leapd is running
+
+Launching:
+	from terminal run: java -jar "<path to JLeap.jar"
+
+Gestures/Controls:
+	Mouse Movement = Index Finger
+	Right-Click = Move Finger close to the screen
+	Mouse Wheel Down = Tap Down with 2 fingers (index + thumb)
+	Mouse Wheel Up = Tap Down with 3 or more fingers
+	Previous Button = Swipe Left
+	Next Button = Swipe Right
